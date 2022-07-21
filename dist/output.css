@@ -580,64 +580,30 @@ video {
   position: relative;
 }
 
-.top-16 {
-  top: 4rem;
+.top-0 {
+  top: 0px;
 }
 
 .right-0 {
   right: 0px;
 }
 
-.top-20 {
-  top: 5rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-8 {
-  top: 2rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.-top-4 {
-  top: -1rem;
-}
-
-.-bottom-28 {
-  bottom: -7rem;
-}
-
-.-bottom-16 {
-  bottom: -4rem;
-}
-
-.-bottom-0 {
-  bottom: -0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-4 {
-  bottom: 1rem;
+.top-36 {
+  top: 9rem;
 }
 
 .z-10 {
   z-index: 10;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mt-4 {
@@ -656,6 +622,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -672,24 +642,20 @@ video {
   height: 20rem;
 }
 
+.h-5\/6 {
+  height: 83.333333%;
+}
+
 .w-5\/6 {
   width: 83.333333%;
-}
-
-.w-2\/4 {
-  width: 50%;
-}
-
-.w-3\/4 {
-  width: 75%;
 }
 
 .w-3\/5 {
   width: 60%;
 }
 
-.w-4\/5 {
-  width: 80%;
+.w-2\/4 {
+  width: 50%;
 }
 
 .flex-1 {
@@ -736,6 +702,11 @@ video {
   gap: 1.5rem;
 }
 
+.gap-x-24 {
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -749,6 +720,11 @@ video {
   border-bottom-left-radius: 9999px;
 }
 
+.rounded-r-full {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
 .bg-stonecreek-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(46 171 223 / var(--tw-bg-opacity));
@@ -757,6 +733,11 @@ video {
 .bg-stonecreek-green {
   --tw-bg-opacity: 1;
   background-color: rgb(88 209 202 / var(--tw-bg-opacity));
+}
+
+.bg-stonecreek-light-grey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 238 241 / var(--tw-bg-opacity));
 }
 
 .object-scale-down {
@@ -782,6 +763,16 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -859,9 +850,21 @@ video {
   background-color: rgb(233 238 241 / var(--tw-bg-opacity));
 }
 
+.btn-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 209 202 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:bg-\[\#006797\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 103 151 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-stonecreek-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 171 223 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {
@@ -877,23 +880,15 @@ video {
   .sm\:w-1\/2 {
     width: 50%;
   }
+
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
 }
 
 @media (min-width: 768px) {
-  .md\:top-16 {
-    top: 4rem;
-  }
-
-  .md\:top-8 {
-    top: 2rem;
-  }
-
   .md\:mb-16 {
     margin-bottom: 4rem;
-  }
-
-  .md\:block {
-    display: block;
   }
 
   .md\:flex {
@@ -908,10 +903,6 @@ video {
     width: 50%;
   }
 
-  .md\:w-2\/4 {
-    width: 50%;
-  }
-
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -919,44 +910,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-8 {
-    top: 2rem;
-  }
-
-  .lg\:-right-36 {
-    right: -9rem;
-  }
-
-  .lg\:-bottom-0 {
-    bottom: -0px;
-  }
-
-  .lg\:top-16 {
-    top: 4rem;
-  }
-
-  .lg\:top-20 {
-    top: 5rem;
-  }
-
   .lg\:top-36 {
     top: 9rem;
-  }
-
-  .lg\:top-32 {
-    top: 8rem;
-  }
-
-  .lg\:top-12 {
-    top: 3rem;
-  }
-
-  .lg\:-right-32 {
-    right: -8rem;
-  }
-
-  .lg\:-right-40 {
-    right: -10rem;
   }
 
   .lg\:-right-44 {
@@ -971,16 +926,40 @@ video {
     margin-bottom: 0px;
   }
 
+  .lg\:mt-60 {
+    margin-top: 15rem;
+  }
+
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-52 {
+    margin-top: 13rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:w-3\/4 {
     width: 75%;
   }
 
-  .lg\:w-2\/4 {
-    width: 50%;
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:items-start {

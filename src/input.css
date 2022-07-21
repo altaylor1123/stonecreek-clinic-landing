@@ -13,3 +13,7 @@
 .btn-grey {
   @apply bg-stonecreek-light-grey;
 }
+
+.btn-green {
+  @apply bg-stonecreek-green text-white;
+}
